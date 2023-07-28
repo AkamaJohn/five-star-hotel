@@ -1,0 +1,91 @@
+body {
+    background-image: url('static/background-adare-restaurant.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    width: 100%;
+     
+  }
+  /* .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
+  header {
+width: 100%;
+  }
+  .logo {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navigation-container {
+    margin-top: 12px;
+    padding: 16px 0;
+    background-color: rgba(34, 34, 36, 0.605);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    hover color: red;
+    active color: green;
+
+    
+  }
+  
+  ul.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  
+  ul.nav > li {
+    display: inline;
+  }
+  
+  ul.nav > li > a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  h1{
+    color:white ;
+    text-align: center;
+  }
+  p{
+    color: white;
+    text-align: center;
+  }
+  a.reservation-link{
+    text-align: center;
+    color:white ;
+    display: block;
+  } 
+  .maps-container{
+  margin-top: 48px;
+   margin-right: auto;
+  margin-left: auto; 
+  text-align: center;
+  display: block;
+  height: 10px;
+  justify-self: unset;
+
+  }
+  .copyright-link{
+    color: white;
+    text-align: center;
+    display: block;
+    background-color: rgba(16, 16, 16, 0.6);
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    padding: 10px 0px;
+  }
